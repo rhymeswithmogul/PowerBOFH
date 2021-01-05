@@ -1,0 +1,63 @@
+﻿TOPIC
+    about_PowerBOFH
+
+SHORT DESCRIPTION
+    A PowerShell module to generate excuses that you can use at work.
+
+LONG DESCRIPTION
+    Are you a sysadmin, sysop, netop, hostmaster, postmaster, developer, coder,
+    technician, computer scientist, help desk employee, or work in the IT field
+    in another way? If so, you've probably needed a good excuse here and there.
+    PowerBOFH is a cross-platform PowerShell module that will make up an excuse
+    for you to use.  It leverages Jeff Ballard's "The BOFH-Style Excuse Server"
+    to find you something sarcastic yet believeable.
+
+EXAMPLES
+    PS C:> Get-Excuse
+    
+    It's a hard computer science problem.
+
+NOTE
+    The BOFH-Style Excuse Server was developed and is operated by Jeff Ballard.
+    This PowerShell module is in no way affiliated with or written by him.  For
+    support with this module, go to this module's GitHub project page.
+
+SUPPORTED SERVERS
+    At this time, only Jeff Ballard's server is supported.
+
+    If there are other BOFH servers in operation, go to GitHub and let me know,
+    and I will look into adding support for them, too, for redundancy and extra
+    excuses.
+
+TROUBLESHOOTING NOTE
+    If you have a slow or unstable Internet connection, you may want to use the
+    -Timeout parameter to make this cmdlet wait longer for a response.
+    
+    You could use -Timeout 0 to have this module wait forever, but if it hangs,
+    then you might need to open a new PowerShell window, so you can get another
+    excuse as to why you're still waiting for the first excuse.  Don't do that.
+
+SEE ALSO
+    Be sure to visit Jeff Ballard's "The BOFH-Style Excuse Server":
+    http://pages.cs.wisc.edu/~ballard/bofh/
+
+    To learn more about this module, search for it on PowerShell Gallery, or go
+    to its GitHub page at: https://github.com/rhymeswithmogul/PowerBOFH/
+
+    You can also complain directly from your PowerShell session! Take your time
+    and type up a thoughtfully-written and insightful complaint.  Then, send it
+    to me with this line of code:
+    
+    Get-Content 'complaint.txt' | Out-Null; Remove-Item 'complaint.txt' -Force
+
+KEYWORDS
+    - BOFH
+    - excuse
+    - generator
+    - humor
+    - iiitttttttt
+    - netop
+    - sysadmin
+    - sysop
+    - technician
+    - tech support
