@@ -8,8 +8,8 @@
 
 @{
 
-# Script module or binary module file associated with this manifest.
-RootModule = (Join-Path -Path 'src' -ChildPath 'PowerBOFH.psm1')
+# Script module or binary module file associated' with this manifest.
+RootModule = 'src/PowerBOFH.psm1'
 
 # Version number of this module.
 ModuleVersion = '1.0.0'
