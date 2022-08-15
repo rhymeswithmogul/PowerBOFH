@@ -1,3 +1,5 @@
+[![PowerShell Gallery Version (including pre-releases)](https://img.shields.io/powershellgallery/v/PowerBOFH?include_prereleases)](https://powershellgallery.com/packages/PowerBOFH/) [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PowerBOFH)](https://powershellgallery.com/packages/v/PowerBOFH)
+
 ## PowerBOFH
 If you work in the <abbr title="Information Technology">IT</abbr> field, you know that you often need to find an excuse, and find one fast.  This module will fetch a useful excuse from [Jeff Ballard's BOFH server](http://pages.cs.wisc.edu/~ballard/bofh/).
 
@@ -15,7 +17,7 @@ PS C:\> Install-Module PowerBOFH
 
 You could also download a release from this GitHub page.  Bleeding-edge BOFH's may prefer to clone the Git repository.
 
-### What does BOFH stand for?
+### What does <abbr title="Bastard Operator From Hell">BOFH</abbr> stand for?
 Google it.
 
 ### Am I a BOFH?
