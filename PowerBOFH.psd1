@@ -12,7 +12,7 @@
 RootModule = 'src/PowerBOFH.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '1.0.1'
 
 # Supported PSEditions
 CompatiblePSEditions = @('Core', 'Desktop')
@@ -24,7 +24,7 @@ GUID = '49b310eb-c01b-4feb-9635-11a014d9b38b'
 Author = 'Colin Cogle'
 
 # Copyright statement for this module
-Copyright = '(c) 2021 Colin Cogle.  All rights reserved.'
+Copyright = '(c) 2021-2022 Colin Cogle.  All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'Fetches a useful excuse from a BOFH server.'
@@ -52,9 +52,11 @@ AliasesToExport = @('Get-BofhExcuse', 'New-BofhExcuse', 'New-Excuse')
 
 # List of all files packaged with this module
 FileList = @(
+	'en-US/about_BOFH.help.txt',
 	'en-US/about_PowerBOFH.help.txt',
 	'en-US/PowerBOFH-help.xml',
 	'src/PowerBOFH.psm1',
+    'AUTHORS',
 	'ChangeLog.md',
 	'LICENSE',
 	'NEWS.md',
@@ -68,7 +70,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @('excuse', 'BOFH', 'sysadmin', 'sysop', 'humor', 'funny', 'sarcasm', 'iiittttt')
+        Tags = @('excuse', 'BOFH', 'PFY', 'sysadmin', 'sysop', 'humor', 'funny', 'sarcasm', 'iiittttt')
 
         # A URL to the license for this module.
         LicenseUri = 'https://www.gnu.org/licenses/agpl-3.0.en.html'

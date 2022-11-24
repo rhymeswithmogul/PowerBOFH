@@ -74,4 +74,5 @@ This module requires Internet connectivity.
 This module was developed without BOFH server operator Jeff Ballard, and is not affiliated with him in any way, shape, or form.
 
 ## RELATED LINKS
+[about_PowerBOFH]()
 [http://pages.cs.wisc.edu/~ballard/bofh/](Jeff Ballard's BOFH-Style Excuse Server)
