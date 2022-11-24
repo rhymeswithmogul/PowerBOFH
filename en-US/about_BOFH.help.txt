@@ -1,0 +1,32 @@
+TOPIC
+	about_BOFH
+
+SHORT DESCRIPTION
+	Bastard Operator From Hell.  We all know the bitter, secluded system admin
+	that is so sick of people pestering him that he would all too eagerly delete
+	all your accounts, just because he can.  BOFHs are usually operators long
+	enough in the business to have lost all sense of respect for the maggots
+	that keep calling him about their broken computers.
+
+	Do not anger the BOFH, for he has root access.
+
+LONG DESCRIPTION SHAMELESSLY COPIED FROM WIKIPEDIA
+	The Bastard Operator From Hell (BOFH) is a fictional rogue computer operator
+	created by Simon Travaglia, who takes out his anger on users (who are
+	"lusers" to him) and others who pester him with their computer problems,
+	uses his expertise against his enemies and manipulates his employer.
+
+	Several other people have written stories about BOFHs, but those by Simon
+	Travaglia are considered canonical. The BOFH stories were originally posted 
+	n 1992 to Usenet by Travaglia, with some being reprinted in Datamation.
+	They were published weekly from 1995 to 1999 in Network Week.  Since 2000,
+	they have been published regularly in The Register (UK). Several collections
+	of the stories have been published as books.
+
+	By extension, the term is also used to refer to any system administrator who
+	displays the qualities of the original.
+
+SEE ALSO
+	about_PowerBOFH
+	http://www.bofharchive.com/
+	https://www.theregister.com/offbeat/bofh/

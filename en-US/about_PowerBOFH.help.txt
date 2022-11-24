@@ -52,6 +52,7 @@ SEE ALSO
 
 KEYWORDS
     - BOFH
+    - PFY
     - excuse
     - generator
     - humor
@@ -61,3 +62,6 @@ KEYWORDS
     - sysop
     - technician
     - tech support
+
+SEE ALSO
+    about_PowerBOFH, if you're still confused.
