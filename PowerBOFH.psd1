@@ -12,7 +12,7 @@
 RootModule = 'src/PowerBOFH.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.1'
+ModuleVersion = '2.0.0'
 
 # Supported PSEditions
 CompatiblePSEditions = @('Core', 'Desktop')
@@ -27,7 +27,7 @@ Author = 'Colin Cogle'
 Copyright = '(c) 2021-2022 Colin Cogle.  All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Fetches a useful excuse from a BOFH server.'
+Description = 'Quickly come up with a BOFH-inspired excuse to chase away The Boss.'
 
 # Minimum version of the PowerShell engine required by this module
 PowerShellVersion = '5.1'
@@ -48,10 +48,12 @@ CmdletsToExport = @()
 VariablesToExport = ''
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = @('Get-BofhExcuse', 'New-BofhExcuse', 'New-Excuse')
+AliasesToExport = @('bofh', 'Get-BofhExcuse', 'New-BofhExcuse', 'New-Excuse')
 
 # List of all files packaged with this module
 FileList = @(
+    'contrib/JeffBallard.txt',
+    'contrib/PowerBOFH.txt',
 	'en-US/about_BOFH.help.txt',
 	'en-US/about_PowerBOFH.help.txt',
 	'en-US/PowerBOFH-help.xml',

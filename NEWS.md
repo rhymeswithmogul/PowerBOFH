@@ -1,4 +1,2 @@
-== PowerBOFH news ==
-
-=== What's New in Version 1.0 ===
-Released <time datetime="2021-01-05">January 5, 2021</time>, this is the initial release of this module.  So, everything is new.
+# What's New in PowerBOFH 2.0.0
+This module now includes Jeff Ballard's excuses, so that it can operate offline!  Contributions are welcome.
